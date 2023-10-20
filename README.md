@@ -1,26 +1,26 @@
-# Android Project 4 - *Name of App Here*
+# Android Project 4 - *Flixster-2*
 
-Submitted by: **Your Name Here**
+Submitted by: **James Hernandez**
 
-**Name of your app** is a movie browsing app that allows users to browse ... [TODO] 
+**Flixster-2** is a movie browsing app that allows users to browse the most popular movies and tv shows that week!
 
-Time spent: **X** hours spent in total
+Time spent: **13** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **Choose any endpoint on The MovieDB API except `now_playing`**
+- [x] **Choose any endpoint on The MovieDB API except `now_playing`**
   - Chosen Endpoint: `[TODO: FILL ME IN TO GET CREDIT]`
-- [] **Make a request to your chosen endpoint and implement a RecyclerView to display all entries**
-- [ ] **Use Glide to load and display at least one image per entry**
-- [ ] **Click on an entry to view specific details about that entry using Intents**
+- [x] **Make a request to your chosen endpoint and implement a RecyclerView to display all entries**
+- [x] **Use Glide to load and display at least one image per entry**
+- [x] **Click on an entry to view specific details about that entry using Intents**
 
 The following **optional** features are implemented:
 
-- [ ] **Add another API call and RecyclerView that lets the user interact with different data.** 
-- [ ] **Add rounded corners to the images using the Glide transformations**
-- [ ] **Implement a shared element transition when user clicks into the details of a movie**
+- [x] **Add another API call and RecyclerView that lets the user interact with different data.** 
+- [x] **Add rounded corners to the images using the Glide transformations**
+- [x] **Implement a shared element transition when user clicks into the details of a movie**
 
 The following **additional** features are implemented:
 
@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='Flixster-2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
@@ -41,11 +41,12 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I had lots of trouble with getting the images and text to fit inside the screen as simple as it sounds.
+Also a lot of my gradle files were out of sync so I was messing with that a lot!
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2023] [James Hernandez]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
