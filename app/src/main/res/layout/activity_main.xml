@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/movieContent"
+        android:layout_height="300dp"
+        android:layout_width="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PopularMovieView"
+        >
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:textSize="20sp"
+        android:id="@+id/PopularMovieView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/most_popular_movies_this_week"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/TvView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/most_popular_tv_shows_this_week"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movieContent" />
+
+    <FrameLayout
+        android:id="@+id/TvShowContent"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TvView">
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
